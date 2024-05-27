@@ -1,3 +1,29 @@
 body {
   background-color: bisque;
 }
+h1,
+p {
+  text-align: center;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+  border-radius: 10px;
+}
+.link {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 450px;
+  margin-right: 450px;
+}
+a {
+  color: rgb(9, 85, 60);
+}
+:hover a {
+  cursor: pointer;
+}
+.hello {
+  color: rgb(91, 91, 188);
+  text-decoration: underline;
+}
